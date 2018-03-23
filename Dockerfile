@@ -6,3 +6,4 @@ RUN apk add openssl-dev ca-certificates linux-headers coreutils git
 RUN pip install -U pip
 RUN pip install -U ansible
 RUN pip install -U shade
+RUN pip install -U python-netaddr
